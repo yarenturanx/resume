@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yaren Turan Resume</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Fjalla+One&family=Rubik+Storm&display=swap"
+    rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+    };
+  </script>
+</head>
+
+<body
+  class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 transition-colors duration-300 p-2 sm:p-4 md:p-12 font-sans">
+  <button onclick="document.documentElement.classList.toggle('dark')"
+    class="fixed bottom-6 right-6 sm:top-6 sm:bottom-auto p-3 rounded-full bg-white dark:bg-slate-800 shadow-lg border border-slate-200 dark:border-slate-700 transition-all active:scale-90 hover:scale-110 z-50 group"
+    title="Toggle Dark Mode">
+    <svg class="hidden dark:block w-6 h-6 text-yellow-400 font-bold" fill="none" stroke="currentColor"
+      viewBox="0 0 24 24" stroke-width="2.5">
+      <path stroke-linecap="round" stroke-linejoin="round"
+        d="M12 3v1m0 16v1m9-9h-1M4 9h-1m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707.707M12 8a4 4 0 100 8 4 4 0 000-8z">
+      </path>
+    </svg>
+    <svg class="dark:hidden w-6 h-6 text-slate-700 font-bold" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+      stroke-width="2.5">
+      <path stroke-linecap="round" stroke-linejoin="round"
+        d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+    </svg>
+  </button>
+  <main
+    class="max-w-4xl mx-auto bg-white dark:bg-slate-900 shadow-2xl rounded-2xl md:rounded-3xl overflow-hidden ring-1 ring-slate-200 dark:ring-slate-800">
+    <div
+      class="p-6 md:p-12 bg-slate-100/50 dark:bg-slate-800/50 border-b border-slate-200 dark:border-slate-700 flex flex-col md:flex-row items-center gap-6 md:gap-10">
+      <div class="relative group">
+        <div
+          class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-blue-400 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000">
+        </div>
+        <img src="photo.jpg" alt="Yaren Turan"
+          class="relative w-32 h-32 sm:w-48 sm:h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-white dark:border-slate-800 shadow-lg" />
+      </div>
+
+      <div class="text-center md:text-left flex-1 w-full">
+        <h1
+          class="text-4xl sm:text-5xl md:text-7xl font-black mb-2 md:mb-4 py-2 tracking-tighter bg-gradient-to-r from-slate-900 to-slate-700 dark:from-white dark:to-slate-400 bg-clip-text text-transparent">
+          Yaren Turan
+        </h1>
+        <p
+          class="text-xl sm:text-xl md:text-2xl font-semibold text-blue-600 dark:text-blue-400 mb-2 md:mb-2 min-h-[1.5em]">
+          <span id="typewriter"></span><span class="typing-cursor"></span>
+        </p>
+        <p class="text-lg sm:text-slate-500 dark:text-slate-400 font-medium mb-6 md:mb-6">
+          Beşiktaş, İstanbul
+        </p>
+
+        <div
+          class="flex flex-col md:flex-row flex-wrap justify-center md:justify-start gap-3 md:gap-4 text-lg font-medium w-full">
+          <a href="mailto:yarenturan_@outlook.com"
+            class="flex items-center justify-center md:justify-start gap-2 px-4 py-3 md:px-4 md:py-2 bg-white dark:bg-slate-800 rounded-xl shadow-sm hover:shadow-md transition-all border border-slate-100 dark:border-slate-800 w-full md:w-auto">
+            <span class="text-blue-500 text-xl md:text-lg">@</span>
+            yarenturan_@outlook.com
+          </a>
+          <a href="tel:+905071720888"
+            class="flex items-center justify-center md:justify-start gap-2 px-4 py-3 md:px-4 md:py-2 bg-white dark:bg-slate-800 rounded-xl shadow-sm hover:shadow-md transition-all border border-slate-100 dark:border-slate-800 w-full md:w-auto">
+            <span class="text-blue-500 text-xl md:text-lg">📞</span> +90 507
+            172 08 88
+          </a>
+          <div class="flex flex-col sm:flex-row gap-3 md:gap-2 mt-1 md:mt-0 w-full md:w-auto">
+            <a href="https://www.linkedin.com/in/yarenturanx/"
+              class="flex items-center justify-center gap-2 px-4 py-3 md:px-4 md:py-2 bg-blue-600 dark:bg-blue-600 text-white rounded-xl font-bold hover:bg-blue-700 dark:hover:bg-blue-500 shadow-lg shadow-blue-200 dark:shadow-none transition-all w-full md:w-auto">
+              <svg class="w-5 h-5 px-0.5" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/yarenturanx"
+              class="flex items-center justify-center gap-2 px-4 py-3 md:px-4 md:py-2 bg-black text-white rounded-xl font-bold hover:bg-slate-800 transition-all w-full md:w-auto">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-6 md:p-12 space-y-8 md:space-y-12">
+      <section>
+        <h2
+          class="text-2xl md:text-3xl font-extrabold text-slate-900 dark:text-white mb-4 md:mb-6 flex items-center gap-4">
+          <span class="h-8 w-1.5 bg-blue-500 rounded-full"></span>
+          Summary
+        </h2>
+        <p class="leading-relaxed text-slate-700 dark:text-slate-300 font-medium italic opacity-90">
+          I am a motivated person who is ready to learn and make the most out of every opportunity. Being
+          detail-oriented and proactive, I try to make sure everything runs smoothly. I am excited for the opportunity
+          to leverage my skills where I can contribute to drive both individual and organizational success.
+        </p>
+      </section>
+      <section>
+        <h2
+          class="text-2xl md:text-3xl font-extrabold text-slate-900 dark:text-white mb-6 md:mb-8 flex items-center gap-4">
+          <span class="h-8 w-1.5 bg-blue-500 rounded-full"></span>
+          Experience
+        </h2>
+
+        <div class="space-y-12">
+          <div
+            class="relative pl-8 before:absolute before:left-0 before:top-2 before:bottom-0 before:w-px before:bg-slate-200 dark:before:bg-slate-700">
+            <div
+              class="absolute left-[-4px] top-2 w-2 h-2 rounded-full bg-blue-500 ring-4 ring-white dark:ring-slate-900">
+            </div>
+            <h3 class="text-lg sm:text-2xl font-bold text-slate-900 dark:text-white">
+              Data Analyst
+            </h3>
+            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-4 gap-2">
+              <span class="text-lg font-bold text-blue-600 dark:text-blue-400">GroupM</span>
+              <span
+                class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-400 w-fit">Jan
+                2025 - Present</span>
+            </div>
+            <ul
+              class="list-disc ml-4 space-y-3 text-slate-700 dark:text-slate-300 marker:text-blue-600 dark:marker:text-blue-400">
+              <li>
+                Designing end-to-end Marketing Mix Modeling (MMM) solutions using statistical modeling approaches and
+                building saturation and response curves to support media effectiveness and budget optimization.
+              </li>
+              <li>
+                Developing predictive machine learning models for marketing measurement and performance forecasting use
+                cases, including predictive LTV and conversion outcome prediction models, performing exploratory data
+                analysis (EDA) during dataset preparation, and using Python and R-based modeling tools.
+              </li>
+              <li>
+                Conducting incremental impact and attribution analyses to isolate the short-term effect of TV and
+                digital activities and complement MMM-based long-term measurement.
+              </li>
+              <li>
+                Applying Structural Equation Modeling (SEM) to analyze complex relationships between observed and latent
+                variables for advanced analytical studies.
+              </li>
+              <li>
+                Designing and maintaining BigQuery-based analytical datasets and feature tables, supporting data
+                modeling and data quality processes, and building SQL transformations and KPI definitions to support
+                advanced analytics and machine learning workflows.
+              </li>
+              <li>
+                Creating and launching CRM–CXM use cases by defining eligibility rules, configuring actions, asset
+                codes, and performing pre- and post-launch performance analyses based on defined performance metrics.
+              </li>
+              <li>
+                Identifying experimentation opportunities through in-depth GA4 and BigQuery analyses, defining
+                hypotheses, and launching A/B tests.
+              </li>
+              <li>
+                Designing decision-focused dashboards and visualizations using Tableau and Power BI, and delivering
+                executive-ready presentations to internal and external stakeholders.
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="relative pl-8 before:absolute before:left-0 before:top-2 before:bottom-0 before:w-px before:bg-slate-200 dark:before:bg-slate-700">
+            <div
+              class="absolute left-[-4px] top-2 w-2 h-2 rounded-full bg-blue-500 ring-4 ring-white dark:ring-slate-900">
+            </div>
+            <h3 class="text-lg sm:text-2xl font-bold text-slate-900 dark:text-white">
+              Data Analytics Intern – MediaXPS Bootcamp Program
+            </h3>
+            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-3 md:mb-4 gap-1 sm:gap-2">
+              <span class="text-lg font-bold text-blue-600 dark:text-blue-400">Huawei</span>
+              <span
+                class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-400 w-fit">Sep
+                2024 - Jan 2025</span>
+            </div>
+            <ul
+              class="list-disc ml-4 space-y-3 text-slate-700 dark:text-slate-300 marker:text-blue-600 dark:marker:text-blue-400">
+
+              <li>
+                Collecting, cleaning, validating, and transforming raw data into usable formats for analysis using
+                Python, SQL, BigQuery, and Excel.
+              </li>
+              <li>
+                Conducting exploratory data analysis to identify trends, patterns, and anomalies for Machine Learning
+                projects.
+              </li>
+              <li>
+                Developing and implementing statistical models to analyze data and generate insights.
+              </li>
+              <li>
+                Creating data visualizations (e.g., dashboards, reports, presentations) and reports using Tableau to
+                effectively communicate analytical findings to stakeholders.
+              </li>
+              <li>
+                Engaging with clients across various domains (including FMCG, retail, e-commerce, medicine,
+                manufacturing, technology industry etc.) to understand their unique data needs and provide tailored
+                analytical solutions.
+              </li>
+              <li>
+                Working closely with internal and global teams and clients to translate business requirements into
+                technical solutions, presenting insights clearly and effectively.
+              </li>
+              <li>
+                Proactively identifying opportunities to improve data quality, analysis, data modeling processes, and
+                reporting.
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="relative pl-8 before:absolute before:left-0 before:top-2 before:bottom-0 before:w-px before:bg-slate-200 dark:before:bg-slate-700">
+            <div
+              class="absolute left-[-4px] top-2 w-2 h-2 rounded-full bg-blue-500 ring-4 ring-white dark:ring-slate-900">
+            </div>
+            <h3 class="text-lg sm:text-2xl font-bold text-slate-900 dark:text-white">
+              Purchasing Intern
+            </h3>
+            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-3 md:mb-4 gap-1 sm:gap-2">
+              <span class="text-lg font-bold text-blue-600 dark:text-blue-400">Penti</span>
+              <span
+                class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-400 w-fit">May
+                2024 - Jul 2024</span>
+            </div>
+            <ul
+              class="list-disc ml-4 space-y-3 text-slate-700 dark:text-slate-300 marker:text-blue-600 dark:marker:text-blue-400">
+              <li>
+                Placing orders with global suppliers, monitoring order confirmations, and updating delivery status using
+                SAP.
+              </li>
+              <li>
+                Collaborating with design and development teams to plan and assist in the design, development and
+                production processes of new products.
+              </li>
+              <li>
+                Tracking production stages and suggesting improvements to enhance efficiency in the production process.
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="relative pl-8 before:absolute before:left-0 before:top-2 before:bottom-0 before:w-px before:bg-slate-200 dark:before:bg-slate-700">
+            <div
+              class="absolute left-[-4px] top-2 w-2 h-2 rounded-full bg-blue-500 ring-4 ring-white dark:ring-slate-900">
+            </div>
+            <h3 class="text-lg sm:text-2xl font-bold text-slate-900 dark:text-white">
+              IT Project Management Intern
+            </h3>
+            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-3 md:mb-4 gap-1 sm:gap-2">
+              <span class="text-lg font-bold text-blue-600 dark:text-blue-400">Vaillant Group Türkiye </span>
+              <span
+                class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-400 w-fit">Apr
+                2023 - Sep 2023</span>
+            </div>
+            <ul
+              class="list-disc ml-4 space-y-3 text-slate-700 dark:text-slate-300 marker:text-blue-600 dark:marker:text-blue-400">
+              <li>
+                Collecting project and ticket requests from internal business/process analysis or departmental
+                management to enhance business outcomes and productivity.
+              </li>
+              <li>
+                Software demand tracking, analysis and development documentation.
+              </li>
+              <li>
+                Offering assistance in conducting post-project evaluations to identify lessons learned and opportunities
+                for future improvements.
+              </li>
+              <li>
+                Tracking project performance and identifying potential bottlenecks for timely resolution.
+              </li>
+              <li>
+                Assisting in the process of transitioning from Waterfall Methodology to Agile Methodology.
+              </li>
+              <li>
+                Preparing video documentation of project management related processes.
+              </li>
+              <li>
+                Contributing to the preparation of BRD documents.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2
+          class="text-2xl md:text-3xl font-extrabold text-slate-900 dark:text-white mb-6 md:mb-8 flex items-center gap-4">
+          <span class="h-8 w-1.5 bg-blue-500 rounded-full"></span>
+          Education
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+          <div
+            class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/30 rounded-2xl border border-slate-100 dark:border-slate-800">
+            <h4 class="text-lg sm:text-xl font-bold text-slate-900 dark:text-white mb-1">
+              Bahcesehir University
+            </h4>
+            <p class="text-blue-600 dark:text-blue-400 font-bold mb-1 sm:mb-2 text-sm sm:text-base">
+              Bachelor of Science - Industrial Engineering
+            </p>
+            <p class="text-slate-500 dark:text-slate-400 text-xs sm:text-sm italic">
+              Sep 2020 - Jan 2025
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="mt-12 text-center text-slate-400 dark:text-slate-600 pb-12">
+    <p>
+      &copy; 2026 Yaren Turan &bull;
+    </p>
+  </footer>
+  <script>
+    const textElement = document.getElementById("typewriter");
+    const phrases = [
+      "Data Analyst",
+      "Data Scientist",
+      "SQL Developer",
+      "Industrial Engineer",
+      "Growth Hacker",
+    ];
+    let phraseIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    let typingSpeed = 100;
+
+    function type() {
+      const currentPhrase = phrases[phraseIndex];
+
+      if (isDeleting) {
+        textElement.textContent = currentPhrase.substring(0, charIndex - 1);
+        charIndex--;
+        typingSpeed = 50;
+      } else {
+        textElement.textContent = currentPhrase.substring(0, charIndex + 1);
+        charIndex++;
+        typingSpeed = 100;
+      }
+
+      if (!isDeleting && charIndex === currentPhrase.length) {
+        isDeleting = true;
+        typingSpeed = 2000; // Pause at the end
+      } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        phraseIndex = (phraseIndex + 1) % phrases.length;
+        typingSpeed = 500; // Pause before next word
+      }
+
+      setTimeout(type, typingSpeed);
+    }
+
+    document.addEventListener("DOMContentLoaded", type);
+  </script>
+</body>
+
+</html>
