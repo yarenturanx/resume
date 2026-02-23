@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.typing-cursor {
+  border-right: 3px solid #2563eb;
+  animation: blink 0.75s step-end infinite;
+  margin-left: 2px;
+}
+
+.dark .typing-cursor {
+  border-right-color: #60a5fa;
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: currentColor;
+  }
+}
